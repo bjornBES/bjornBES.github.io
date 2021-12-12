@@ -1,0 +1,79 @@
+@import url(https://fonts.google.com/specimen/Poppins#glyphs);
+
+* {
+    box-sizing: border-box;
+}
+
+html
+{
+    background: rgb(253, 150, 68);
+}
+.box
+{
+    height: 25cm;
+    width: auto;
+    text-overflow:unset "box";
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid rgb(253, 150, 68);
+}
+.nevBox
+{
+    height: 5cm;
+    width: auto;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid rgb(0, 0, 0);
+}
+.Main
+{
+    background-color: rgb(253, 150, 68);
+    text-align:center ;
+    margin-left: auto;
+}
+.logo {
+    cursor: pointer;
+}
+.logo-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    text-decoration: none;
+    color: rgb(255, 251, 245);
+}
+.NavLinks{
+    color: rgb(0, 0, 0);
+    list-style: none;
+    margin: 50px 0 0 0;
+    text-align: right;
+}
+.button
+{
+    color: black;
+    background: rgb(253, 150, 68);
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 1cm;
+}
+.text
+{
+    color: black;
+    text-align: center;
+    font-size: 0.5cm;
+}
+.TopNavBox
+{
+    left: 50%;
+    text-align: center;
+    align-self: center;
+    height: 3cm;
+    width: 10cm;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid rgb(0, 0, 0);
+}
